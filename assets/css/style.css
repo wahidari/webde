@@ -3,6 +3,15 @@ body {
     font-family: "Inter", sans-serif;
 }
 
+.btn-float {
+    z-index: 1000;
+    padding: 4px 8px;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
 /* .text-success {
     color: #49AD09 !important;
 } */
