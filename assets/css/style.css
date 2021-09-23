@@ -1,15 +1,15 @@
 body {
-    scroll-behavior: auto;
-    font-family: "Inter", sans-serif;
+  scroll-behavior: auto;
+  font-family: "Inter", sans-serif;
 }
 
 .btn-float {
-    z-index: 1000;
-    padding: 4px 8px;
-    color: #fff;
-    border-radius: 50px;
-    text-align: center;
-    text-decoration: none;
+  z-index: 1000;
+  padding: 4px 8px;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  text-decoration: none;
 }
 
 /* .text-success {
@@ -19,72 +19,72 @@ body {
 /* NAVBAR  */
 
 .navbar-brand {
-    font-size: 30px;
-    font-weight: 600;
+  font-size: 30px;
+  font-weight: 600;
 }
 
 /* HEADER  */
 
 .header {
-    min-height: 90vh;
+  min-height: 90vh;
 }
 
 .header-text {
-    font-size: 58px;
-    font-weight: 700;
+  font-size: 58px;
+  font-weight: 700;
 }
 
 .a-none {
-    font-weight: 500;
-    color: #514040;
+  font-weight: 500;
+  color: #514040;
 }
 
 .a-none:hover {
-    color: #28a745 !important;
+  color: #28a745 !important;
 }
 
 .header {
-    background: url(../img/header.png);
-    height: 500px; /* You must set a specified height */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
+  background: url(../img/header.png);
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
 }
 
 .right-0 {
-    right: 0;
+  right: 0;
 }
 
 .a-success {
-    color: #28a745;
+  color: #28a745;
 }
 
 .a-success:hover {
-    color: #0c9e2e;
+  color: #0c9e2e;
 }
 
 .testimonial {
-    background: url(../img/testimonial.png);
-    height: 400px; /* You must set a specified height */
-    min-width: 720px;
-    z-index: -1;
-    background-position: center !important; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
+  background: url(../img/testimonial.png);
+  height: 400px; /* You must set a specified height */
+  min-width: 720px;
+  z-index: -1;
+  background-position: center !important; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-    .header-text {
-        font-size: 38px;
-    }
-    .text-center-sm {
-        text-align: center !important;
-    }
-    .testimonial {
-        height: auto;
-        width: 0px !important;
-    }
+  .header-text {
+    font-size: 38px;
+  }
+  .text-center-sm {
+    text-align: center !important;
+  }
+  .testimonial {
+    height: auto;
+    width: 0px !important;
+  }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -101,4 +101,18 @@ body {
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+}
+
+i.bi {
+  font-size: 36px;
+  padding: 0px;
+}
+
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  color: #212529 !important;
+  background-color: transparent;
+}
+
+.owl-theme .owl-nav [class*="owl-"] {
+  color: #35393d !important;
 }
